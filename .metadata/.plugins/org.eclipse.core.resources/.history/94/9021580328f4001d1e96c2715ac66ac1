@@ -1,0 +1,9 @@
+
+package com.intermaticcore.minicraft.gfx;
+
+public class Sprite {
+	public int x, y;
+	public int img;
+	public int col;
+	public int bits;
+}

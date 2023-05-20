@@ -1,0 +1,17 @@
+package com.intermaticcore.minicraft.gfx;
+
+public class Color {
+	public static getColor(int a, int b, int c, int d) {
+		return (getCol(d) << 24) + (getCol(c) << 16) + (getCol(b) << 8) + (getCol(a));
+	}
+
+	public static getCol(int d) {
+		if (d < 0)
+			return 255;
+		
+		int r = d / 100 % 10;
+		int g = d / 10 % 10;
+		int b = d % 10;
+		return r * 36 + g * 6 + b;
+	}
+}

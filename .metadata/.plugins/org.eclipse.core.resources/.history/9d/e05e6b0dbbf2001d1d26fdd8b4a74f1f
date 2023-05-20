@@ -1,0 +1,7 @@
+package com.intermaticcore.minicraft.gfx;
+
+public class Font {
+	private String chars = "" +//
+			"ABCDEFGHIJKLMNOPQRSTUVWXYZ		" + 
+			"0123456789.,!?'\"-=/\\%()<>"
+}

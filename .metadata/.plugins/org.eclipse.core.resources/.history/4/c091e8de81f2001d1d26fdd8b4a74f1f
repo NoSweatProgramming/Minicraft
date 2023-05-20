@@ -1,0 +1,10 @@
+package com.intermaticcore.minicraft.gfx;
+
+public class SpriteSheet {
+	public int width, height;
+	public int[] pixels;
+	
+	public SpriteSheet(BufferedImage image) {
+		
+	}
+}

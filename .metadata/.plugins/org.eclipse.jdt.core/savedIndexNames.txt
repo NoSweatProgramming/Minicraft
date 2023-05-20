@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+C:\Users\dominic\Desktop\Minicraft\.metadata\.plugins\org.eclipse.jdt.core
+3485623146.index
+1725400515.index
+2608416420.index
+1865797976.index
